@@ -1,0 +1,30 @@
+----------
+Matlab Use
+----------
+
+X scripts are available to run via Matlab:
+- `Figure1.m`, etc., reproduce Figures 1, 2, 3, 4, S1, and S2 
+- `Figure4.m` requires `scenario1.mat` be in the same folder; `scenario1.mat` can be reproduced using `figure-4.py`
+
+----------
+Python Installation
+--------
+
+Run 
+
+```pip install -r requirements.txt```
+
+to install prerequisites via pip.
+
+If your Python is distributed by Ananconda instead, then use the two commands.
+
+```conda install pip```
+```pip install -r requirements.txt```
+
+----------
+Python Use
+----------
+
+Two scripts are available to run via Python:
+- `main.py`, which reproduces Figures 5, and S3, S4, S5
+- `figure-4.py`, which reproduces part of the data for Figure 4
